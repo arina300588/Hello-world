@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новогодний кроссворд</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #d40000;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+      background-color: #fff;
+    }
+    .black {
+      background-color: #000;
+    }
+    .number {
+      font-size: 10px;
+      position: relative;
+      top: -10px;
+      left: -8px;
+      float: left;
+      color: red;
+    }
+    .questions {
+      margin-top: 30px;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .questions h2 {
+      color: #006400;
+    }
+    .questions p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Новогодний кроссворд</h1>
+
+  <table>
+    <!-- Строки кроссворда (10×10) -->
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td><span class="number">1</span>Ё</td>
+      <td>Л</td>
+      <td>К</td>
+      <td>А</td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td><span class="number">2</span>Д</td>
+      <td>Е</td>
+      <td>Д</td>
+      <td>М</td>
+      <td>О</td>
+      <td>Р</td>
+      <td>О</td>
+      <td>З</td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td><span class="number">3</span>С</td>
+      <td>Н</td>
+      <td>Е</td>
+      <td>Г</td>
+      <td>О</td>
+      <td>В</td>
+      <td>И</td>
+      <td>К</td>
+    </tr>
+    <tr>
+      <td><span class="number">4</span>Х</td>
+      <td>Л</td>
+      <td>О</td>
+      <td>П</td>
+      <td>У</td>
+      <td>Ш</td>
+      <td>К</td>
+      <td>А</td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td><span class="number">5</span>П</td>
+      <td>О</td>
+      <td>Д</td>
+      <td>А</td>
+      <td>Р</td>
+      <td>О</td>
+      <td>К</td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td><span class="number">6</span>М</td>
+      <td>А</td>
+      <td>Н</td>
+      <td>Д</td>
+      <td>А</td>
+      <td>Р</td>
+      <td>И</td>
+      <td>Н</td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td><span class="number">7</span>К</td>
+      <td>У</td>
+      <td>Т</td>
+      <td>Ь</td>
+      <td>Я</td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td><span class="number">8</span>Г</td>
+      <td>И</td>
+      <td>Р</td>
+      <td>Л</td>
+      <td>Я</td>
+      <td>Н</td>
+      <td>Д</td>
+      <td>А</td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td><span class="number">9</span>С</td>
+      <td>А</td>
+      <td>Н</td>
+      <td>И</td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td><span class="number">10</span>З</td>
+      <td>И</td>
+      <td>М</td>
+      <td>А</td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+  </table>
+
+  <div class="questions">
+    <h2>Вопросы по горизонтали:</h2>
+    <p>1. Новогоднее дерево</p>
+    <p>2. Волшебник с посохом и мешком подарков</p>
+    <p>3. Человек из снега</p>
+    <p>4. Праздничный фейерверк в виде бумажной трубки</p>
+    <p>5. То, что кладут под ёлку</p>
+    <p>6. Цитрусовый фрукт, символ Нового года</p>
+    <p>7. Традиционное рождественское блюдо из зерна</p>
+    <p>8. Украшение из цепочки лампочек или флажков</p>
+    <p>9. Транспорт Деда Мороза</p>
+    <p>10. Время года, когда отмечают Новый год</p>
+  </div>
+
+</body>
+</html>
